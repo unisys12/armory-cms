@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "Destiny2InventoryItemDefinition",
+  "info": {
+    "name": "destiny2Item",
+    "description": "These are items released during Destiny 2"
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "maxLength": 255,
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "screenshot": {
+      "type": "string"
+    },
+    "itemTypeDisplayName": {
+      "type": "string"
+    },
+    "hash": {
+      "type": "biginteger"
+    },
+    "etymology": {
+      "model": "etymology",
+      "via": "destiny2Items"
+    }
+  }
+}

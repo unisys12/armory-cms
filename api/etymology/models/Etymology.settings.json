@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "Etymology",
+  "info": {
+    "name": "etymology",
+    "description": "The original literal meaning of the name of the item"
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "definition": {
+      "type": "text"
+    },
+    "expanded_insights": {
+      "type": "text"
+    },
+    "destiny2Items": {
+      "collection": "destiny2item",
+      "via": "etymology"
+    },
+    "mythologies": {
+      "collection": "mythology",
+      "via": "etymologies",
+      "dominant": true
+    }
+  }
+}

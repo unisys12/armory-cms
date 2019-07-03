@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/destiny2Items",
+      "handler": "Destiny2Item.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/destiny2Items/count",
+      "handler": "Destiny2Item.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/destiny2Items/:_id",
+      "handler": "Destiny2Item.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/destiny2Items",
+      "handler": "Destiny2Item.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/destiny2Items/:_id",
+      "handler": "Destiny2Item.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/destiny2Items/:_id",
+      "handler": "Destiny2Item.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

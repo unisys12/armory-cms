@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "Mythology",
+  "info": {
+    "name": "mythology",
+    "description": "Cultural history and origin"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "etymologies": {
+      "collection": "etymology",
+      "via": "mythologies"
+    }
+  }
+}

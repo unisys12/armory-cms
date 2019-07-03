@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/etymologies",
+      "handler": "Etymology.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/etymologies/count",
+      "handler": "Etymology.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/etymologies/:_id",
+      "handler": "Etymology.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/etymologies",
+      "handler": "Etymology.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/etymologies/:_id",
+      "handler": "Etymology.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/etymologies/:_id",
+      "handler": "Etymology.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

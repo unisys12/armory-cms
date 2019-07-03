@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mythologies",
+      "handler": "Mythology.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mythologies/count",
+      "handler": "Mythology.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mythologies/:_id",
+      "handler": "Mythology.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mythologies",
+      "handler": "Mythology.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mythologies/:_id",
+      "handler": "Mythology.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mythologies/:_id",
+      "handler": "Mythology.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
